@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>정보 입력</h1>
+    <form action="result.html" method="GET">
+        <fieldset>
+            <legend>기본정보</legend>
+            <label for="username">Username:</label>
+            <input id="username" type="text" name="username" value="홍길동"><br>
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="password" placeholder="비밀번호 넣어라"><br>
+            <label for="email">Email:</label>
+            <input id="email" type="text" name="email" placeholder="이메일 넣어라"><br>
+        </fieldset>
+        <fieldset>
+            <legend>부가정보</legend>
+            <label for="comments">Comments:</label>
+            <br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>취미 선택</legend>
+            <input type="checkbox" name="a" id="">여행
+            <input type="checkbox" name="b" id="">영화보기
+            <input type="checkbox" name="n" id="">등산
+            <input type="checkbox" name="c" id="">탁구
+            <input type="checkbox" name="d" id="">온라인게임
+            <input type="checkbox" name="e" id="">앱개발
+        </fieldset>
+        <fieldset>
+            <legend>성별</legend>
+            <input type="radio" name="gender" value="M" id=""> 남자
+            <input type="radio" name="gender" value="F" id=""> 여자
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
